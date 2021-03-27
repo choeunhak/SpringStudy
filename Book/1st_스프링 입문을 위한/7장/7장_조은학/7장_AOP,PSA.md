@@ -12,13 +12,13 @@ https://durumiss.tistory.com/6 에서 확인하실 수 있습니다.
 
 로직을 어디에 주입할까?
 
-[##_Image|kage@bX1qhK/btq08ugQjI8/WWeBkZeWdFkmiFXuinkWa1/img.png|alignCenter|data-origin-width="0" data-origin-height="0" data-ke-mobilestyle="widthContent"|||_##]
+![](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbX1qhK%2Fbtq08ugQjI8%2FWWeBkZeWdFkmiFXuinkWa1%2Fimg.png)
 
 이렇게 5군데에 집어 넣을 수 있다.
 
 AOP를 위한 소스코드 전후의 모습이다
 
-[##_Image|kage@cgdQE2/btq090sh3JS/OkvVIKPuCZ7YMOlL2SjHqk/img.png|alignCenter|data-origin-width="0" data-origin-height="0" data-ke-mobilestyle="widthContent"|||_##]
+![](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FcgdQE2%2Fbtq090sh3JS%2FOkvVIKPuCZ7YMOlL2SjHqk%2Fimg.png)
 
 ‘횡단 관심사’를 지우고 단순해진 모습이다
 
@@ -36,7 +36,7 @@ SRP 단일책임원칙
 
 아래는 AOP적용 전 후 의 전체 코드이다.
 
-[##_Image|kage@cyhL1y/btq091x0z4n/18BDy3GG9frlAKcNNMeUm1/img.png|alignCenter|data-origin-width="0" data-origin-height="0" data-ke-mobilestyle="widthContent"|||_##]
+![](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FcyhL1y%2Fbtq091x0z4n%2F18BDy3GG9frlAKcNNMeUm1%2Fimg.png)
 
 프록시를 이용해 runSomething 메소드를 호출하는 모습이다.
 
@@ -60,7 +60,7 @@ SRP 단일책임원칙
 
 5\. Pointcut
 
-[##_Image|kage@crhhbr/btq1b9oiGal/6iqa4iNcfYk0DyekP47bzk/img.png|alignCenter|data-origin-width="0" data-origin-height="0" data-ke-mobilestyle="widthContent"|||_##]
+![](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fcrhhbr%2Fbtq1b9oiGal%2F6iqa4iNcfYk0DyekP47bzk%2Fimg.png)
 
 5\. Pointcut
 
