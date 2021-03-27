@@ -23,7 +23,7 @@ Car 객체 생성자에서 new Tire();
 
 **기존의 주입 방식**
 
-[##_Image|kage@tzptg/btq09zIrGXL/gfJAnDyRDDH6j0txW2SMkk/img.png|alignCenter|data-origin-width="0" data-origin-height="0" data-ke-mobilestyle="widthContent"|||_##]
+![](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Ftzptg%2Fbtq09zIrGXL%2FgfJAnDyRDDH6j0txW2SMkk%2Fimg.png)
 
 자동차는 타이어에 의존한다
 
@@ -37,7 +37,7 @@ Car 객체 생성자에서 new Tire();
 
 (1) 생성자를 통해 주입
 
-[##_Image|kage@bjZYfP/btq1atufBIT/EgnnMTeYdHcMqfio0pTTAk/img.png|alignCenter|data-origin-width="0" data-origin-height="0" data-ke-mobilestyle="widthContent"|||_##]
+![](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbjZYfP%2Fbtq1atufBIT%2FEgnnMTeYdHcMqfio0pTTAk%2Fimg.png)
 
 new를 통해 타이어를 생산하는 부분이 car.java에서 driver.java로 이동하였다.
 
@@ -61,13 +61,13 @@ but 실무에서는 생성자를 통한 의존성 주입을 선호하는 사람�
 
 (1) xml 사용(속성을 통해 주입한 방법임)
 
-[##_Image|kage@dZHCCl/btq09x4VuV9/7lGkaIDU1tn1tK4GFI0A20/img.png|alignCenter|data-origin-width="0" data-origin-height="0" data-ke-mobilestyle="widthContent"|||_##]
+![](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FdZHCCl%2Fbtq09x4VuV9%2F7lGkaIDU1tn1tK4GFI0A20%2Fimg.png)
 
 \-->종합 쇼핑몰에서 상품에 해당하는 car와 tire을 구매하는 코드라고 보면 된다
 
 종합쇼핑몰에 입점은 xml파일에서 한다
 
-[##_Image|kage@cCOiNf/btq09Z7X3LR/hTrGhdFAHMkRBZkimjuKp0/img.png|alignCenter|data-origin-width="0" data-origin-height="0" data-ke-mobilestyle="widthContent"|||_##]
+![](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FcCOiNf%2Fbtq09Z7X3LR%2FhTrGhdFAHMkRBZkimjuKp0%2Fimg.png)
 
 여기서 스프링의 이점?
 
@@ -75,17 +75,17 @@ but 실무에서는 생성자를 통한 의존성 주입을 선호하는 사람�
 
 (2) xml에서 속성을 주입해버리기
 
-[##_Image|kage@rfFtI/btq1caOfSxB/kpEPBMGNGZXfeo15LRw660/img.png|alignCenter|data-origin-width="0" data-origin-height="0" data-ke-mobilestyle="widthContent"|||_##]
+![](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FrfFtI%2Fbtq1caOfSxB%2FkpEPBMGNGZXfeo15LRw660%2Fimg.png)
 
 차 안에 property로 tire가 있다!
 
 (3) Autowired 사용
 
-[##_Image|kage@bvYqvD/btq08uuhUxX/kSQR3e7j7X2BKffScVXkDk/img.png|alignCenter|data-origin-width="0" data-origin-height="0" data-ke-mobilestyle="widthContent"|||_##]
+![](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbvYqvD%2Fbtq08uuhUxX%2FkSQR3e7j7X2BKffScVXkDk%2Fimg.png)
 
 car.java에서 위의 코드가 아래의 코드로 변경되었다
 
-[##_Image|kage@bk3QCr/btq1bfWyzFt/5HanKvt3MMLHLlSs7lMbfK/img.png|alignCenter|data-origin-width="0" data-origin-height="0" data-ke-mobilestyle="widthContent"|||_##]
+![](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fbk3QCr%2Fbtq1bfWyzFt%2F5HanKvt3MMLHLlSs7lMbfK%2Fimg.png)
 
 xml파일에서도 @Autowird 를 통해서 자동으로 car 의 property 를 찾아줄 수 있음으로 생략이 가능해졌다.
 
